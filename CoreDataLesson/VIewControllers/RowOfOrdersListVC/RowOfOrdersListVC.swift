@@ -10,7 +10,9 @@ import CoreData
 
 final class RowOfOrdersListVC: UIViewController, UITableViewDataSource, NSFetchedResultsControllerDelegate {
     
+    
     @IBOutlet private weak var tableView: UITableView!
+    @IBOutlet private weak var label: UILabel!
     
     private var rows = [RowOfOrder]() {
         didSet {
