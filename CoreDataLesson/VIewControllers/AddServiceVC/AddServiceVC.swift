@@ -8,7 +8,7 @@
 import UIKit
 import CoreData
 
-final class AddServiceVC: UIViewController {
+class AddServiceVC: UIViewController {
     
     @IBOutlet private weak var nameTextField: UITextField!
     @IBOutlet private weak var infoTextField: UITextField!
