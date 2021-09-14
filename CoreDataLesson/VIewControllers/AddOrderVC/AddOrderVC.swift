@@ -9,6 +9,7 @@ import UIKit
 import CoreData
 
 // Harnashevich Andrei comment
+// Harnashevich Andrei new comment
 
 final class AddOrderVC: UIViewController, CustomersListVCDelegate, AddRowOfOrderDelegate, UITableViewDataSource {
     
