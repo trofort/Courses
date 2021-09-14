@@ -56,7 +56,7 @@ final class AddRowOfOrder: UIViewController, ServicesListVCDelegate {
         if let nextVC = UIStoryboard(name: "Main", bundle: nil)
             .instantiateViewController(identifier: "ServicesListVC") as? ServicesListVC {
             nextVC.delegate = self
-            navigationController?.pushViewController(nextVC, animated: true)
+            navigationController?.present(nextVC, animated: true, completion: nil)
         }
     }
     
