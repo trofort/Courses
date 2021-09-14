@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class MainVC: UIViewController {
+class MainVC: UIViewController {
     
     @IBAction func customerDidTap() {
         let nextVC = UIStoryboard(name: "Main", bundle: nil)
