@@ -8,6 +8,8 @@
 import UIKit
 import CoreData
 
+// Harnashevich Andrei comment
+
 final class AddOrderVC: UIViewController, CustomersListVCDelegate, AddRowOfOrderDelegate, UITableViewDataSource {
     
     @IBOutlet private weak var datePicker: UIDatePicker!
