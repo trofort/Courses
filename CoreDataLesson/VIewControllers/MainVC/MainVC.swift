@@ -11,7 +11,7 @@ final class MainVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let alert = UIAlertController(title: "bye", message: nil, preferredStyle: .alert)
+        let alert = UIAlertController(title: "bye!", message: nil, preferredStyle: .alert)
         let bye = UIAlertAction(title: "ok", style: .destructive) { action in
             fatalError()
         }
