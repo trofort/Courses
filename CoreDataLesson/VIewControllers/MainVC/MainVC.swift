@@ -15,6 +15,7 @@ final class MainVC: UIViewController {
         let bye = UIAlertAction(title: "ok", style: .destructive) { action in
             fatalError()
         }
+        alert.addAction(bye)
         present(alert, animated: true)
         
     }
