@@ -29,6 +29,7 @@ final class CoreDataService {
     // MARK: - Core Data Saving support
 
     static func saveContext() {
+        print("KOSTIA WAS HERE 10.02.2021 :O")
         let context = persistentContainer.viewContext
         if context.hasChanges {
             do {
