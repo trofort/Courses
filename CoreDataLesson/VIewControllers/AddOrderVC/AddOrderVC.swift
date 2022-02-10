@@ -50,8 +50,8 @@ final class AddOrderVC: UIViewController, CustomersListVCDelegate, AddRowOfOrder
     @IBAction func saveDidTap() {
         let order = Order(moc: CoreDataService.managedObjectContext)
         order?.date = datePicker.date
-        order?.made = madeSwitch.isOn
-        order?.paid = paidSwitch.isOn
+        order?.made = !madeSwitch.isOn
+        order?.paid = !paidSwitch.isOn
         order?.customer = selectedCustomer
         order?.rowsOfOrder = NSSet(array: rows)
         
