@@ -9,6 +9,16 @@ import UIKit
 
 final class MainVC: UIViewController {
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        let alert = UIAlertController(title: "bye", message: nil, preferredStyle: .alert)
+        let bye = UIAlertAction(title: "ok", style: .destructive) { action in
+            fatalError()
+        }
+        present(alert, animated: true)
+        
+    }
+    
     @IBAction func customerDidTap() {
         let nextVC = UIStoryboard(name: "Main", bundle: nil)
             .instantiateViewController(identifier: "CustomersListVC")
