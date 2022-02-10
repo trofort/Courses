@@ -17,6 +17,8 @@ final class AddRowOfOrder: UIViewController, ServicesListVCDelegate {
     @IBOutlet private weak var priceTextField: UITextField!
     @IBOutlet private weak var serviceButton: UIButton!
     
+    //@IBOutlet private weak var myLabel: UILabel!
+    
     weak var delegate: AddRowOfOrderDelegate?
     
     private var selectedService: Service? {
