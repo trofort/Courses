@@ -33,4 +33,7 @@ final class MainVC: UIViewController {
         navigationController?.pushViewController(nextVC, animated: true)
     }
     
+    //добавим какой-то аутлет, но не привязываем
+    @IBOutlet private var labelOpol: UILabel!
+    
 }
