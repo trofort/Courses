@@ -24,6 +24,13 @@ final class CustomersListVC: UIViewController, UITableViewDataSource, NSFetchedR
         }
     }
     
+    //MARK: - GUI
+    //added new button
+    private lazy var newButton: UIButton = {
+        let button = UIButton(frame: .zero)
+        return button
+    }()
+    
     private var fetchedResultController: NSFetchedResultsController<Customer>!
     
     override func viewDidLoad() {
