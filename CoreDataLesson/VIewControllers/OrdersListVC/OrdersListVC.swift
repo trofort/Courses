@@ -17,7 +17,7 @@ final class OrdersListVC: UIViewController, UITableViewDataSource, NSFetchedResu
             tableView.reloadData()
         }
     }
-    
+    // I'm was here!
     private var fetchedResultController: NSFetchedResultsController<Order>!
     
     override func viewDidLoad() {
