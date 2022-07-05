@@ -25,7 +25,7 @@ final class AddCustomerVC: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
-    @IBAction func cancelDidTap() {
+    @IBAction func cancelDidTapped() {
         dismiss(animated: true, completion: nil)
     }
     
