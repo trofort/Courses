@@ -27,6 +27,10 @@ final class RowOfOrdersListVC: UIViewController, UITableViewDataSource, NSFetche
         loadAllRows()
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+    }
+    
     private func setupFetchedResultController() {
         let request = NSFetchRequest<RowOfOrder>(entityName: "RowOfOrder")
         let sortDescriptor = NSSortDescriptor(key: "order.date", ascending: true)
