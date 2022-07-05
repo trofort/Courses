@@ -26,8 +26,8 @@ final class CustomersListVC: UIViewController, UITableViewDataSource, NSFetchedR
     
     private var fetchedResultController: NSFetchedResultsController<Customer>!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
         
         let customer = Customer(moc: CoreDataService.managedObjectContext)
         
