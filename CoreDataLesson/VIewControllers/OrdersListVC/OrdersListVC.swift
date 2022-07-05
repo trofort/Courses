@@ -18,6 +18,7 @@ final class OrdersListVC: UIViewController, UITableViewDataSource, NSFetchedResu
         }
     }
     
+    
     private var fetchedResultController: NSFetchedResultsController<Order>!
     
     override func viewDidLoad() {
@@ -26,6 +27,8 @@ final class OrdersListVC: UIViewController, UITableViewDataSource, NSFetchedResu
         setupFetchedResultController()
         setupNavigationBarItems()
         loadAllOrders()
+        
+        print("hello world")
     }
     
     private func setupFetchedResultController() {
