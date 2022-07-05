@@ -31,6 +31,12 @@ final class AddRowOfOrder: UIViewController, ServicesListVCDelegate {
         setupNavigationBarItems()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        reloadInputViews()
+    }
+    
     private func setupNavigationBarItems() {
         let addButton = UIBarButtonItem(barButtonSystemItem: .save,
                                         target: self,
