@@ -15,11 +15,7 @@ final class MainVC: UIViewController {
         navigationController?.pushViewController(nextVC, animated: true)
     }
     
-    @IBAction func orderDidTap() {
-        let nextVC = UIStoryboard(name: "Main", bundle: nil)
-            .instantiateViewController(identifier: "OrdersListVC")
-        navigationController?.pushViewController(nextVC, animated: true)
-    }
+
     
     @IBAction func serviceDidTap() {
         let nextVC = UIStoryboard(name: "Main", bundle: nil)
