@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		CE278A3426DE388300558BA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE278A3326DE388300558BA4 /* AppDelegate.swift */; };
 		CE278A3626DE388300558BA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE278A3526DE388300558BA4 /* SceneDelegate.swift */; };
-		CE278A3B26DE388300558BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE278A3926DE388300558BA4 /* Main.storyboard */; };
 		CE278A3E26DE388300558BA4 /* CoreDataLesson.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE278A3C26DE388300558BA4 /* CoreDataLesson.xcdatamodeld */; };
 		CE278A4026DE388600558BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE278A3F26DE388600558BA4 /* Assets.xcassets */; };
 		CE278A4326DE388600558BA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE278A4126DE388600558BA4 /* LaunchScreen.storyboard */; };
@@ -41,7 +40,6 @@
 		CE278A3026DE388300558BA4 /* CoreDataLesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataLesson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE278A3326DE388300558BA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE278A3526DE388300558BA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE278A3A26DE388300558BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE278A3D26DE388300558BA4 /* CoreDataLesson.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataLesson.xcdatamodel; sourceTree = "<group>"; };
 		CE278A3F26DE388600558BA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE278A4226DE388600558BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -140,7 +138,6 @@
 				CE278A9D26E0C32E00558BA4 /* AddCustomerVC */,
 				CE278A9726E0BF1600558BA4 /* CustomersListVC */,
 				CE278A9626E0BF0F00558BA4 /* MainVC */,
-				CE278A3926DE388300558BA4 /* Main.storyboard */,
 			);
 			path = VIewControllers;
 			sourceTree = "<group>";
@@ -320,7 +317,6 @@
 			files = (
 				CE278A4326DE388600558BA4 /* LaunchScreen.storyboard in Resources */,
 				CE278A4026DE388600558BA4 /* Assets.xcassets in Resources */,
-				CE278A3B26DE388300558BA4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,14 +358,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CE278A3926DE388300558BA4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE278A3A26DE388300558BA4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CE278A4126DE388600558BA4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
