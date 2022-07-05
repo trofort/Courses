@@ -38,6 +38,8 @@ final class MainVC: UIViewController {
         let nextVC = UIStoryboard(name: "Main", bundle: nil)
             .instantiateViewController(identifier: "RowOfOrdersListVC")
         navigationController?.pushViewController(nextVC, animated: true)
+        
+        //Макс, тут все Ок! Не придирайся!!!
     }
 
 }
