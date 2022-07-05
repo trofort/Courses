@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wsL-Dc-Mf8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wsL-Dc-Mf8">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -61,14 +61,28 @@
                                     <action selector="rowOfOrderDidTap" destination="agJ-Pm-jqV" eventType="touchUpInside" id="e4D-om-cnY"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ccz-1Y-Dgk">
+                                <rect key="frame" x="174" y="288" width="66" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="fl1-pR-LUo"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="newOfOrderDidTap" destination="agJ-Pm-jqV" eventType="touchUpInside" id="BHv-hC-Ccs"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="muB-zE-ztc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="ccz-1Y-Dgk" firstAttribute="leading" secondItem="muB-zE-ztc" secondAttribute="leading" constant="174" id="Abc-Lh-uL2"/>
+                            <constraint firstItem="ccz-1Y-Dgk" firstAttribute="centerX" secondItem="m5w-PQ-oyC" secondAttribute="centerX" id="FN9-7k-vM2"/>
                             <constraint firstItem="m5w-PQ-oyC" firstAttribute="centerX" secondItem="9wu-zd-Qex" secondAttribute="centerX" id="FQ1-bo-4Cr"/>
                             <constraint firstItem="emA-FV-idp" firstAttribute="centerX" secondItem="9wu-zd-Qex" secondAttribute="centerX" id="Hzu-cZ-GNT"/>
                             <constraint firstItem="mGH-wV-7Pw" firstAttribute="top" secondItem="muB-zE-ztc" secondAttribute="top" constant="24" id="TQU-28-boo"/>
                             <constraint firstItem="mGH-wV-7Pw" firstAttribute="centerX" secondItem="9wu-zd-Qex" secondAttribute="centerX" id="dHW-nv-ERl"/>
+                            <constraint firstItem="ccz-1Y-Dgk" firstAttribute="top" secondItem="m5w-PQ-oyC" secondAttribute="bottom" constant="8" symbolic="YES" id="i0A-ns-AUn"/>
                             <constraint firstItem="LdS-48-ZhW" firstAttribute="top" secondItem="emA-FV-idp" secondAttribute="bottom" constant="16" id="lIX-lf-aX7"/>
                             <constraint firstItem="LdS-48-ZhW" firstAttribute="centerX" secondItem="9wu-zd-Qex" secondAttribute="centerX" id="mXE-IM-Ia9"/>
                             <constraint firstItem="m5w-PQ-oyC" firstAttribute="top" secondItem="LdS-48-ZhW" secondAttribute="bottom" constant="16" id="nQO-7f-yey"/>
@@ -169,7 +183,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CustomerCell" rowHeight="75" id="BdP-Ye-Sp6" customClass="CustomerCell" customModule="CoreDataLesson" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="24.5" width="414" height="75"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BdP-Ye-Sp6" id="xzN-Cc-CEd">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="75"/>
@@ -245,7 +259,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="OrderCell" rowHeight="75" id="Dii-dq-Evj" customClass="OrderCell" customModule="CoreDataLesson" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="24.5" width="414" height="75"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Dii-dq-Evj" id="B6C-8E-8IH">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="75"/>
@@ -591,7 +605,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ServiceCell" rowHeight="75" id="u6L-Er-HCB" customClass="ServiceCell" customModule="CoreDataLesson" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="24.5" width="414" height="75"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="u6L-Er-HCB" id="GtL-mZ-zoN">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="75"/>
@@ -667,7 +681,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="RowOfOrderCell" rowHeight="75" id="acm-JK-yYw" customClass="RowOfOrderCell" customModule="CoreDataLesson" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="24.5" width="414" height="75"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="acm-JK-yYw" id="bc2-tB-tqw">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="75"/>

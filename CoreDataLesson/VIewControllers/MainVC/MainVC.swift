@@ -33,4 +33,11 @@ final class MainVC: UIViewController {
         navigationController?.pushViewController(nextVC, animated: true)
     }
     
+    
+    @IBAction func newOfOrderDidTap() {
+        let nextVC = UIStoryboard(name: "Main", bundle: nil)
+            .instantiateViewController(identifier: "RowOfOrdersListVC")
+        navigationController?.pushViewController(nextVC, animated: true)
+    }
+
 }
