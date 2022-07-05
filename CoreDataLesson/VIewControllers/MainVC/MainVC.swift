@@ -9,6 +9,12 @@ import UIKit
 
 final class MainVC: UIViewController {
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        print("Привет всем из нового курса =)")
+    }
+    
     @IBAction func customerDidTap() {
         let nextVC = UIStoryboard(name: "Main", bundle: nil)
             .instantiateViewController(identifier: "CustomersListVC")
