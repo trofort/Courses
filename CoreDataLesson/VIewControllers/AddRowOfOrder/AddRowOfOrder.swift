@@ -19,11 +19,7 @@ final class AddRowOfOrder: UIViewController, ServicesListVCDelegate {
     
     weak var delegate: AddRowOfOrderDelegate?
     
-    private var selectedService: Service? {
-        didSet {
-            serviceButton.setTitle(selectedService?.name, for: .normal)
-        }
-    }
+    private var selectedService: Service?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -62,5 +58,6 @@ final class AddRowOfOrder: UIViewController, ServicesListVCDelegate {
     
     func didSelect(service: Service) {
         selectedService = service
+        serviceButton.setTitle(service.name, for: .normal)
     }
 }
