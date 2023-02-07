@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C5447E62992CB2900CE31AF /* TestGit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5447E52992CB2900CE31AF /* TestGit.swift */; };
 		CE278A3426DE388300558BA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE278A3326DE388300558BA4 /* AppDelegate.swift */; };
 		CE278A3626DE388300558BA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE278A3526DE388300558BA4 /* SceneDelegate.swift */; };
 		CE278A3B26DE388300558BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE278A3926DE388300558BA4 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C5447E52992CB2900CE31AF /* TestGit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGit.swift; sourceTree = "<group>"; };
 		CE278A3026DE388300558BA4 /* CoreDataLesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataLesson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE278A3326DE388300558BA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE278A3526DE388300558BA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				CE278A8F26E0B57200558BA4 /* Models */,
 				CE278A9026E0B58600558BA4 /* VIewControllers */,
 				CE278A9126E0B5A600558BA4 /* Services */,
+				5C5447E52992CB2900CE31AF /* TestGit.swift */,
 				CE278A3F26DE388600558BA4 /* Assets.xcassets */,
 				CE278A4126DE388600558BA4 /* LaunchScreen.storyboard */,
 				CE278A4426DE388600558BA4 /* Info.plist */,
@@ -343,6 +346,7 @@
 				CE278A8926E0B4D900558BA4 /* RowOfOrder+CoreDataClass.swift in Sources */,
 				CE278A8826E0B4D900558BA4 /* Order+CoreDataProperties.swift in Sources */,
 				CED85F1726E0E3C200D6AB19 /* AddOrderVC.swift in Sources */,
+				5C5447E62992CB2900CE31AF /* TestGit.swift in Sources */,
 				CE278A9C26E0BFB700558BA4 /* CustomerCell.swift in Sources */,
 				CE278A8A26E0B4D900558BA4 /* RowOfOrder+CoreDataProperties.swift in Sources */,
 				CE278A8D26E0B4D900558BA4 /* Customer+CoreDataClass.swift in Sources */,
