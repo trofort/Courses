@@ -9,6 +9,10 @@ import UIKit
 
 final class MainVC: UIViewController {
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
     @IBAction func customerDidTap() {
         let nextVC = UIStoryboard(name: "Main", bundle: nil)
             .instantiateViewController(identifier: "CustomersListVC")
@@ -39,7 +43,7 @@ final class MainVC: UIViewController {
             .instantiateViewController(identifier: "RowOfOrdersListVC")
         navigationController?.pushViewController(nextVC, animated: true)
         
-        //Макс, тут все Ок! Не придирайся!!!
+        
     }
 
 }
