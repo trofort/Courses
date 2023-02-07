@@ -13,7 +13,7 @@ protocol ServicesListVCDelegate: AnyObject {
 }
 
 final class ServicesListVC: UIViewController, UITableViewDataSource, NSFetchedResultsControllerDelegate, UITableViewDelegate {
-    
+    @IBOutlet weak var new: UILabel!
     @IBOutlet private weak var tableView: UITableView!
     
     weak var delegate: ServicesListVCDelegate?
