@@ -15,6 +15,7 @@ protocol AddRowOfOrderDelegate: AnyObject {
 final class AddRowOfOrder: UIViewController, ServicesListVCDelegate {
     
     @IBOutlet private weak var helloCommit: UIButton!
+    @IBOutlet private weak var helloLabel: UILabel!
     
     @IBOutlet private weak var priceTextField: UITextField!
     @IBOutlet private weak var serviceButton: UIButton!
