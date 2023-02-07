@@ -9,6 +9,11 @@ import UIKit
 
 final class MainVC: UIViewController {
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.backgroundColor = .blue
+    }
+    
     @IBAction func customerDidTap() {
         let nextVC = UIStoryboard(name: "Main", bundle: nil)
             .instantiateViewController(identifier: "CustomersListVC")
