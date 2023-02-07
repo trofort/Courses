@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE278A3426DE388300558BA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE278A3326DE388300558BA4 /* AppDelegate.swift */; };
 		CE278A3626DE388300558BA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE278A3526DE388300558BA4 /* SceneDelegate.swift */; };
 		CE278A3B26DE388300558BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE278A3926DE388300558BA4 /* Main.storyboard */; };
 		CE278A3E26DE388300558BA4 /* CoreDataLesson.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE278A3C26DE388300558BA4 /* CoreDataLesson.xcdatamodeld */; };
@@ -39,7 +38,6 @@
 
 /* Begin PBXFileReference section */
 		CE278A3026DE388300558BA4 /* CoreDataLesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataLesson.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE278A3326DE388300558BA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE278A3526DE388300558BA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CE278A3A26DE388300558BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE278A3D26DE388300558BA4 /* CoreDataLesson.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataLesson.xcdatamodel; sourceTree = "<group>"; };
@@ -100,7 +98,6 @@
 		CE278A3226DE388300558BA4 /* CoreDataLesson */ = {
 			isa = PBXGroup;
 			children = (
-				CE278A3326DE388300558BA4 /* AppDelegate.swift */,
 				CE278A3526DE388300558BA4 /* SceneDelegate.swift */,
 				CE278A8F26E0B57200558BA4 /* Models */,
 				CE278A9026E0B58600558BA4 /* VIewControllers */,
@@ -346,7 +343,6 @@
 				CE278A9C26E0BFB700558BA4 /* CustomerCell.swift in Sources */,
 				CE278A8A26E0B4D900558BA4 /* RowOfOrder+CoreDataProperties.swift in Sources */,
 				CE278A8D26E0B4D900558BA4 /* Customer+CoreDataClass.swift in Sources */,
-				CE278A3426DE388300558BA4 /* AppDelegate.swift in Sources */,
 				CE278A8C26E0B4D900558BA4 /* Service+CoreDataProperties.swift in Sources */,
 				CED85F2626E0EE8700D6AB19 /* RowOfOrderCell.swift in Sources */,
 				CED85F2326E0EE2700D6AB19 /* RowOfOrdersListVC.swift in Sources */,
