@@ -8,6 +8,7 @@
 import UIKit
 
 final class MainVC: UIViewController {
+    @IBOutlet private weak var label: UILabel!
     
     @IBAction func customerDidTap() {
         let nextVC = UIStoryboard(name: "Main", bundle: nil)
