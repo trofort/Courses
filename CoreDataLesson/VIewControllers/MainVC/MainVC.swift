@@ -8,6 +8,7 @@
 import UIKit
 
 final class MainVC: UIViewController {
+    // Vadim was hele 11/09/2023
     
     @IBAction func customerDidTap() {
         let nextVC = UIStoryboard(name: "Main", bundle: nil)
@@ -39,7 +40,7 @@ final class MainVC: UIViewController {
             .instantiateViewController(identifier: "RowOfOrdersListVC")
         navigationController?.pushViewController(nextVC, animated: true)
         
-        //Макс, тут все Ок! Не придирайся!!!
+        // Vadim was hele 11/09/2023
     }
 
 }

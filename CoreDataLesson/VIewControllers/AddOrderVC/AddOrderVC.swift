@@ -8,8 +8,7 @@
 import UIKit
 import CoreData
 
-// Harnashevich Andrei comment
-// Harnashevich Andrei new comment
+// Vadim was hele 11/09/2023
 
 final class AddOrderVC: UIViewController, CustomersListVCDelegate, AddRowOfOrderDelegate, UITableViewDataSource {
     
@@ -23,7 +22,7 @@ final class AddOrderVC: UIViewController, CustomersListVCDelegate, AddRowOfOrder
         didSet {
             customerButton.setTitle(selectedCustomer?.name, for: .normal)
         }
-    }
+    }// Vadim was hele 11/09/2023
     
     private var rows = [RowOfOrder]() {
         didSet {

@@ -9,12 +9,13 @@ import UIKit
 import CoreData
 
 final class OrdersListVC: UIViewController, UITableViewDataSource, NSFetchedResultsControllerDelegate {
-    
+    // Vadim was hele 11/09/2023
     @IBOutlet private weak var tableView: UITableView!
     
     private var orders = [Order]() {
         didSet {
             tableView.reloadData()
+            // Vadim was hele 11/09/2023
         }
     }
     
@@ -33,7 +34,7 @@ final class OrdersListVC: UIViewController, UITableViewDataSource, NSFetchedResu
         let sortDescriptor = NSSortDescriptor(key: "date", ascending: true)
         request.sortDescriptors = [sortDescriptor]
         fetchedResultController = NSFetchedResultsController<Order>(fetchRequest: request,
-                                                                       managedObjectContext: CoreDataService.managedObjectContext,
+                                                                       managedObjectContext: CoreDataService// Vadim was hele 11/09/2023.managedObjectContext,
                                                                        sectionNameKeyPath: nil,
                                                                        cacheName: nil)
         fetchedResultController.delegate = self

@@ -7,13 +7,13 @@
 
 import UIKit
 import CoreData
-
+// Vadim was hele 11/09/2023
 protocol ServicesListVCDelegate: AnyObject {
     func didSelect(service: Service)
 }
 
 final class ServicesListVC: UIViewController, UITableViewDataSource, NSFetchedResultsControllerDelegate, UITableViewDelegate {
-    
+    // Vadim was hele 11/09/2023
     @IBOutlet private weak var tableView: UITableView!
     
     weak var delegate: ServicesListVCDelegate?
