@@ -14,6 +14,10 @@ final class CoreDataService {
         return persistentContainer.viewContext
     }
     
+    static var backContext: NSManagedObjectContext {
+        return persistentContainer.newBackgroundContext()
+    }
+    
     // MARK: - Core Data stack
 
     static var persistentContainer: NSPersistentContainer = {
