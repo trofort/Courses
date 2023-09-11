@@ -35,6 +35,7 @@ final class AddOrderVC: UIViewController, CustomersListVCDelegate, AddRowOfOrder
         if let nextVC = UIStoryboard(name: "Main", bundle: nil)
             .instantiateViewController(identifier: "CustomersListVC") as? CustomersListVC {
             nextVC.delegate = self
+            view.backgroundColor = .cyan
             navigationController?.pushViewController(nextVC, animated: true)
         }
     }
