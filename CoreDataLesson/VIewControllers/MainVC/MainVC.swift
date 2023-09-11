@@ -41,5 +41,7 @@ final class MainVC: UIViewController {
         
         //Макс, тут все Ок! Не придирайся!!!
     }
+    
+    @IBOutlet private weak var buttonByVerona: UIButton!
 
 }
