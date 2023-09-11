@@ -10,6 +10,7 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     //something new
+    //NO
     
     var window: UIWindow?
 
