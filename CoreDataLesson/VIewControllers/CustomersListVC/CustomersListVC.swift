@@ -8,6 +8,8 @@
 import UIKit
 import CoreData
 
+private var helloVC: UIViewController?
+
 protocol CustomersListVCDelegate: AnyObject {
     func didSelect(customer: Customer)
 }
