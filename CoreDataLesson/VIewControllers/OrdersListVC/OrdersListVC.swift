@@ -8,7 +8,7 @@
 import UIKit
 import CoreData
 
-final class OrdersListVC: UIViewController, UITableViewDataSource, NSFetchedResultsControllerDelegate {
+final class OrdersListVC: UIViewController, UITableViewDataSource, NSFetchedResultsControllerDelegate { :))))
     
     @IBOutlet private weak var tableView: UITableView!
     
